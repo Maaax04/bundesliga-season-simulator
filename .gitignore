@@ -1,0 +1,17 @@
+cat << 'EOF' > .gitignore
+
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.idea/
+.vscode/
+.DS_Store
+
+.env
+
+data/raw/
+data/processed/
+results/
+EOF
