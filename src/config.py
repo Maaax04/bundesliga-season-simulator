@@ -30,7 +30,7 @@ class Config:
     # Monte Carlo simulation settings
     N_SIMULATIONS: int = 10_000
     RANDOM_SEED: int = 42
-    MAX_GOALS_GRID: int = 10
+    MAX_GOALS: int = 10
 
     # Bundesliga table zones (1-indexed)
     CHAMPIONS_LEAGUE_SPOTS: tuple[int, ...] = (1, 2, 3, 4)
