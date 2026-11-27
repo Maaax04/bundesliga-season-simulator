@@ -16,6 +16,7 @@ class Config:
     DATA_RAW_DIR: Path = PROJECT_ROOT / "data" / "raw"
     MATCH_DETAILS_DIR: Path = DATA_RAW_DIR / "matches"
     DATA_PROCESSED_DIR: Path = PROJECT_ROOT / "data" / "processed"
+    RESULTS_DIR: Path = PROJECT_ROOT / "results"
 
     RAW_LEAGUE_FILE: Path = DATA_RAW_DIR / "fotmob_league_54.json"
     PLAYED_MATCHES_FILE: Path = DATA_PROCESSED_DIR / "played_matches.csv"
